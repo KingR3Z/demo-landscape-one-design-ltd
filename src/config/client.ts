@@ -45,12 +45,8 @@ export const client = {
     { before: "/images/drive-before.jpg", after: "/images/drive-after.jpg", label: "Driveway" },
   ] as { before: string; after: string; label: string }[],
   reviews: [
-    { name: "Sarah M.", rating: 5, text: "Absolutely fantastic work. Professional from start to finish. Couldn't recommend more highly.", date: "2 weeks ago", badge: "Local Guide" },
-    { name: "James T.", rating: 5, text: "Brilliant job. They understood exactly what we wanted and delivered beyond expectations.", date: "1 month ago" },
-    { name: "Karen D.", rating: 5, text: "Best in the area. Transformed our garden into something we're genuinely proud of.", date: "3 weeks ago", badge: "Local Guide" },
-    { name: "David R.", rating: 5, text: "From consultation to completion, everything was handled professionally. Fair pricing throughout.", date: "2 months ago" },
-    { name: "Emma W.", rating: 5, text: "Beautiful results. They delivered exactly what we asked for with a stunning finish.", date: "1 month ago" },
-    { name: "Paul H.", rating: 5, text: "Outstanding quality. Neighbours keep stopping to compliment the work. Highly recommended.", date: "3 weeks ago", badge: "Local Guide" },
+    { name: "gerald biggins", rating: 5, text: "Noel and the team at Landscape One did a fantastic job on our small garden, transforming it from a scruffy under appreciated plot into a beautiful outdoor area to relax and enjoy some al fresco dining. They offered some great ideas, worked through some horrendous weather and always kept us in the loop. When the rain warped some fencing they were quick to let us know and sorted it out straight away. We would highly  recommend them.", date: "4 years ago", badge: "Local Guide" },
+    { name: "Anthony Hodgson", rating: 5, text: "I found Landscape One from previous projects posted on Houzz. We needed someone to excavate and create a new patio area outside the back of our house. From the start I found Noel great to deal with. He understood what we wanted and provided a great solution with clear communication and costs all the way through the project. Everything Noel and his team did was done to perfection and the finish is exceptional. They were a pleasure to have around for the whole project. I can't find fault with anything they did and I couldn't recommend them highly enough. Noel and Landscape One are fist rate, and i'd be happy to recommend them for any garden design and build project.", date: "5 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
   seo: {
     title: "Landscape One Design Ltd | Professional Landscape Designer in Leeds",
